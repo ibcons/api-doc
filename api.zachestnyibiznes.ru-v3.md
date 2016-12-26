@@ -102,13 +102,11 @@ if (@$_GET['id']) {
 $params['api_key'] 	= 'test_api_key';
 $params['ip_client'] = $_SERVER['REMOTE_ADDR'];
 
-$postdata = http_build_query($params);
-
 $opts = ['http' =>
     [
         'method'  => 'POST',
         'header'  => 'Content-type: application/x-www-form-urlencoded',
-        'content' => $postdata
+        'content' => http_build_query($params)
     ]
 ];
 
