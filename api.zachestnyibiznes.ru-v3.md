@@ -54,8 +54,7 @@ bootstrap 3+ (js и css)
 
 ###Примеры
 Пример получения списка компаний:
-	Запрос (POST)
-
+> Запрос (POST)
 > https://api.zachestnyibiznes.ru/v3/data  
 > Параметры  
 > 	api_key : test_api_key  
@@ -64,8 +63,7 @@ bootstrap 3+ (js и css)
 > Ответ (HTML)
 
 Пример получения карточки компании:
-	Запрос (POST)
-	
+> Запрос (POST)
 > https://api.zachestnyibiznes.ru/v3/data/card  
 > Параметры  
 > 	api_key : test_api_key  
@@ -74,8 +72,7 @@ bootstrap 3+ (js и css)
 > Ответ (HTML)
 
 Пример получения финансовой отчётности компании:
-	Запрос (POST)
-	
+> Запрос (POST)
 > https://api.zachestnyibiznes.ru/v3/data/fs  
 > Параметры  
 > 	api_key : test_api_key  
@@ -83,26 +80,9 @@ bootstrap 3+ (js и css)
 > 	id : 1027700132195  
 > Ответ (HTML)
 	
+###Пример реализации на php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Пример реализации на php
-
+```php
 <?php
 
 if (@$_GET['id']) {
@@ -141,4 +121,4 @@ try {
 }
 
 ?>
-
+```
