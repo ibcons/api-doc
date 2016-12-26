@@ -55,30 +55,33 @@ bootstrap 3+ (js и css)
 ###Примеры
 Пример получения списка компаний:
 	Запрос (POST)
-https://api.zachestnyibiznes.ru/v3/data
-Параметры
-	api_key : test_api_key
-	ip_client : 127.0.0.1
-	string : сбербанк москва
-Ответ (HTML)
+
+> https://api.zachestnyibiznes.ru/v3/data  
+> Параметры  
+> 	api_key : test_api_key  
+> 	ip_client : 127.0.0.1  
+> 	string : сбербанк москва  
+> Ответ (HTML)
 
 Пример получения карточки компании:
 	Запрос (POST)
-https://api.zachestnyibiznes.ru/v3/data/card
-Параметры
-	api_key : test_api_key
-	ip_client : 127.0.0.1
-	id : 1027700132195
-Ответ (HTML)
+	
+> https://api.zachestnyibiznes.ru/v3/data/card  
+> Параметры  
+> 	api_key : test_api_key  
+> 	ip_client : 127.0.0.1  
+> 	id : 1027700132195  
+> Ответ (HTML)
 
 Пример получения финансовой отчётности компании:
 	Запрос (POST)
-https://api.zachestnyibiznes.ru/v3/data/fs
-Параметры
-	api_key : test_api_key
-	ip_client : 127.0.0.1
-	id : 1027700132195
-Ответ (HTML)
+	
+> https://api.zachestnyibiznes.ru/v3/data/fs  
+> Параметры  
+> 	api_key : test_api_key  
+> 	ip_client : 127.0.0.1  
+> 	id : 1027700132195  
+> Ответ (HTML)
 	
 
 
