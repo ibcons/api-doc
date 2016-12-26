@@ -110,10 +110,8 @@ $opts = ['http' =>
     ]
 ];
 
-$context = stream_context_create($opts);
-
 try {
-	echo file_get_contents($url, false, $context);
+	echo file_get_contents($url, false, stream_context_create($opts));
 } catch (Exception $e) {
 	echo 'Выброшено исключение: ',  $e->getMessage(), "\n";
 }
