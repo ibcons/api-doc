@@ -48,7 +48,7 @@ API v4 (“интеграция в 1С”)
 ###Примеры
 Пример авторизации:
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/set-clietn-session  
+> https://api.zachestnyibiznes.ru/v4/data/set-client-session  
 > Параметры  
 > 	api_key 	: test_api_key  
 > 	id_client 	: user@mail.com  
