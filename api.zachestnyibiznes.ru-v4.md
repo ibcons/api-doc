@@ -47,7 +47,7 @@ API v4 (“интеграция в 1С”)
 ```
 
 ###Примеры
-Пример получения списка компаний:
+Пример авторизации:
 > Запрос (POST)  
 > https://api.zachestnyibiznes.ru/v4/data/set-clietn-session  
 > Параметры  
