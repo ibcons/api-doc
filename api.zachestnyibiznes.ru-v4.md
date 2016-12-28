@@ -51,7 +51,6 @@ API v4 (“интеграция в 1С”)
 > https://api.zachestnyibiznes.ru/v4/data/set-clietn-session  
 > Параметры  
 > 	api_key 	: test_api_key  
-> 	ip_client 	: 127.0.0.1  
 > 	id_client 	: user@mail.com  
 > Ответ 0 - неудача, 1 - успех
 
