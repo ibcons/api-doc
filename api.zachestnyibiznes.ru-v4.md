@@ -48,13 +48,13 @@ API v4 (“интеграция в 1С”)
 
 ###Примеры
 Пример получения списка компаний:
-> Запрос (POST)
-> https://api.zachestnyibiznes.ru/v3/data  
+> Запрос (POST)  
+> https://api.zachestnyibiznes.ru/v4/data/set-clietn-session  
 > Параметры  
-> 	api_key : test_api_key  
-> 	ip_client : 127.0.0.1  
-> 	string : сбербанк москва  
-> Ответ (HTML)
+> 	api_key 	: test_api_key  
+> 	ip_client 	: 127.0.0.1  
+> 	id_client 	: user@mail.com  
+> Ответ 0 - неудача, 1 - успех
 
 Пример получения карточки компании:
 > Запрос (POST)
