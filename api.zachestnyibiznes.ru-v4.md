@@ -58,10 +58,10 @@ API v4 (“интеграция в 1С”)
 > Запрос (POST)  
 > https://api.zachestnyibiznes.ru/v4/data/search  
 > Параметры  
-> api_key : test_api_key
-> id_client : user@mail.com
-> string : зао масква
-> Ответ (JSON)
+> api_key : test_api_key  
+> id_client : user@mail.com  
+> string : зао масква  
+> Ответ (JSON)  
 
 Пример получения карточки компании:
 > Запрос (POST)
