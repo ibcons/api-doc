@@ -52,7 +52,16 @@ API v4 (“интеграция в 1С”)
 > Параметры  
 > 	api_key 	: test_api_key  
 > 	id_client 	: user@mail.com  
-> Ответ 0 - неудача, 1 - успех
+> Ответ (JSON)
+
+Пример получения списка компаний по запросу
+> Запрос (POST)  
+> https://api.zachestnyibiznes.ru/v4/data/search  
+> Параметры  
+> api_key : test_api_key
+> id_client : user@mail.com
+> string : зао масква
+> Ответ (JSON)
 
 Пример получения карточки компании:
 > Запрос (POST)
