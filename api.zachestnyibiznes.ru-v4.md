@@ -58,7 +58,7 @@ API v4 (“интеграция в 1С”)
 
 Пример получения списка компаний по запросу
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/search?page=2&\_format=xml  
+> https://api.zachestnyibiznes.ru/v4/data/search?page=2&_format=xml  
 > Параметры  
 > api_key : test_api_key  
 > id_client : user@mail.com  
