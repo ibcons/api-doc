@@ -7,7 +7,7 @@ API v4 (“интеграция в 1С”)
 Для подключения к API v4 (“интеграция в 1С”) необходимо зарегистрировать приложение в личном кабинете (https://zachestnyibiznes.ru/user) и связаться с представителями портала для активации доступа.
 
 ###Взаимодействие
-Взаимодействие происходит по протоколу https в виде POST запросов.
+Взаимодействие происходит по протоколу https в виде POST запросов на хост https://zachestnyibiznesapi.ru
 
 В API v4 (“интеграция в 1С”) доступны 4 метода:
 * Установка сессии клиента (авторизация)
@@ -51,7 +51,7 @@ API v4 (“интеграция в 1С”)
 ###Примеры
 Пример авторизации:
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/set-client-session  
+> https://zachestnyibiznesapi.ru/v4/data/set-client-session  
 > Параметры  
 > 	api_key 	: test_api_key  
 > 	id_client 	: user@mail.com  
@@ -59,7 +59,7 @@ API v4 (“интеграция в 1С”)
 
 Пример получения списка компаний по запросу
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/search?page=2&_format=xml  
+> https://zachestnyibiznesapi.ru/v4/data/search?page=2&_format=xml  
 > Параметры  
 > api_key : test_api_key  
 > id_client : user@mail.com  
@@ -68,7 +68,7 @@ API v4 (“интеграция в 1С”)
 
 Пример получения карточки компании
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/card  
+> https://zachestnyibiznesapi.ru/v4/data/card  
 > Параметры  
 > api_key : test_api_key  
 > id_client : user@mail.com  
@@ -77,7 +77,7 @@ API v4 (“интеграция в 1С”)
 
 Пример получения финансовой отчетности компании
 > Запрос (POST)  
-> https://api.zachestnyibiznes.ru/v4/data/fs  
+> https://zachestnyibiznesapi.ru/v4/data/fs  
 > Параметры  
 > api_key : test_api_key  
 > id_client : user@mail.com  
