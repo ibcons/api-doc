@@ -54,7 +54,7 @@ bootstrap 3+ (js и css)
 ###Примеры
 Пример получения списка компаний:
 > Запрос (POST)
-> https://api.zachestnyibiznes.ru/v3/data  
+> https://zachestnyibiznesapi.ru/v3/data  
 > Параметры  
 > 	api_key : test_api_key  
 > 	ip_client : 127.0.0.1  
@@ -63,7 +63,7 @@ bootstrap 3+ (js и css)
 
 Пример получения карточки компании:
 > Запрос (POST)
-> https://api.zachestnyibiznes.ru/v3/data/card  
+> https://zachestnyibiznesapi.ru/v3/data/card  
 > Параметры  
 > 	api_key : test_api_key  
 > 	ip_client : 127.0.0.1  
@@ -72,7 +72,7 @@ bootstrap 3+ (js и css)
 
 Пример получения финансовой отчётности компании:
 > Запрос (POST)
-> https://api.zachestnyibiznes.ru/v3/data/fs  
+> https://zachestnyibiznesapi.ru/v3/data/fs  
 > Параметры  
 > 	api_key : test_api_key  
 > 	ip_client : 127.0.0.1  
@@ -87,15 +87,15 @@ bootstrap 3+ (js и css)
 if (@$_GET['id']) {
 	$params['id'] = $_GET['id'];
 	if (@$_GET['fs'])
-		$url = 'https://api.zachestnyibiznes.ru/v3/data/fs';
+		$url = 'https://zachestnyibiznesapi.ru/v3/data/fs';
 	else
-		$url = 'http://api.zachestnyibiznes.ru/v3/data/card';
+		$url = 'http://zachestnyibiznesapi.ru/v3/data/card';
 } elseif (@$_GET['q']) {
 	$params['string'] = $_GET['q'];
-	$url = 'https://api.zachestnyibiznes.ru/v3/data';
+	$url = 'https://zachestnyibiznesapi.ru/v3/data';
 } else {
 	$params['string'] = '';
-	$url = 'https://api.zachestnyibiznes.ru/v3/data';
+	$url = 'https://zachestnyibiznesapi.ru/v3/data';
 }
 
 $params['api_key'] 	= 'test_api_key';
