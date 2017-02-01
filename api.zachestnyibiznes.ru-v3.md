@@ -101,7 +101,7 @@ if (@$_GET['id']) {
 $params['api_key'] 	= 'test_api_key';
 $params['ip_client'] = $_SERVER['REMOTE_ADDR'];
 
-$opts = ['http' =>
+$opts = ['https' =>
     [
         'method'  => 'POST',
         'header'  => 'Content-type: application/x-www-form-urlencoded',
