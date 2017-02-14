@@ -89,7 +89,7 @@ if (@$_GET['id']) {
 	if (@$_GET['fs'])
 		$url = 'https://zachestnyibiznesapi.ru/v3/data/fs';
 	else
-		$url = 'http://zachestnyibiznesapi.ru/v3/data/card';
+		$url = 'https://zachestnyibiznesapi.ru/v3/data/card';
 } elseif (@$_GET['q']) {
 	$params['string'] = $_GET['q'];
 	$url = 'https://zachestnyibiznesapi.ru/v3/data';
